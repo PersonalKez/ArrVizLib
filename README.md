@@ -1,4 +1,5 @@
-What is this?
+**What is this?**
+
 This is a memory access visualisation library for C++ which 'paints' N-dimensional arrays in QWidget windows. These windows run in separate threads. 
 To launch a window, create a visualisation job by creating an ArrayVizJob object. This will create a new thread and launch two windows; one containing
 the full array printout, and a zoomed 'cursor' which highlights the co-ordinates of interest. 
@@ -14,7 +15,7 @@ Cursor: 2D co-ords to focus cursor at.
 
 Thread will run until the user closes all windows launched by it. 
 
-Installation
+**Installation**
 
 This is a bit tricky (I dev'd this on windows instead of linux, oops). First, check and install all requirements. Helps if dev'ing in QTCreator. 
 
