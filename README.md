@@ -39,7 +39,8 @@ int main(int argc, char *argv[])
 }
 ```
 
-REQUIRES
+**REQUIRES**
+
 https://github.com/erenon/binlog
 CMAKE v. 3.14 or above.
 QT Widgets V5 or above. 
