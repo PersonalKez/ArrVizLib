@@ -39,6 +39,10 @@ int main(int argc, char *argv[])
 }
 ```
 
+**LOGGING**
+
+Logs to log.blog in the project directory. Can use `bread` to decompile and read.
+
 **REQUIRES**
 
 - https://github.com/erenon/binlog
