@@ -7,10 +7,15 @@ the full array printout, and a zoomed 'cursor' which highlights the co-ordinates
     a->visualiseArrayWorker(argc, argv, matVals, matDims, coords, cursor);
 
 'A': the visualisation object, a pointer.
+
 argc, argv: main function args, provide as int main params
+
 matVals: 1 dimensional list of all matrix values by column and then row
+
 matDims: absolute value of matrix dimensions, not 0-indexed
+
 coords: 3+D coordinate 'slice' of higher dimensional matrix to display. I.e. to show 3rd slice of 3d matrix, provide {0,0,2}
+
 Cursor: 2D co-ords to focus cursor at. 
 
 Thread will run until the user closes all windows launched by it. 
